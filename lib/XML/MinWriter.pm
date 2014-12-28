@@ -1,5 +1,5 @@
 package XML::MinWriter;
-
+$XML::MinWriter::VERSION = '0.08';
 use strict;
 use warnings;
 
@@ -13,8 +13,6 @@ our @ISA = qw(Exporter XML::Writer);
 our @EXPORT_OK = qw();
 
 our @EXPORT = qw();
-
-our $VERSION = '0.07';
 
 sub new {
     my $class = shift;
